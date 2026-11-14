@@ -2,6 +2,10 @@
 
 Cover Flow-inspired Alt+Tab window switcher for **GNOME Shell 51** (tested on 51.1 / Wayland).
 
+## Screenshot / Скриншот
+
+![OrbitAltTab running in GNOME Shell](Screenshot%202026-11-15%2001-19-48.png)
+
 ## Features / Возможности
 
 - Smooth 3D Cover Flow previews with side stacks and adjustable spacing, angle, scale and animation duration. / Плавные 3D-миниатюры Cover Flow, боковые стопки и настройка геометрии и анимаций.
@@ -55,7 +59,3 @@ Repository: https://github.com/fuzzy2k/OrbitAltTab
 ## Release / Публикация
 
 Release tag: `v0.7.0`. The ZIP contains a single top-level directory `OrbitAltTab@fuzzy2k/`. For extensions.gnome.org, follow its upload and review requirements separately; this ZIP is intended for GitHub/manual installation. / Для extensions.gnome.org требуется отдельная проверка и упаковка по правилам сайта.
-
-## Screenshot / Скриншот
-
-![OrbitAltTab running in GNOME Shell](Screenshot%202026-11-15%2001-19-48.png)
