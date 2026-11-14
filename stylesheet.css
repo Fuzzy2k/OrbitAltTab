@@ -1,0 +1,80 @@
+.orbit-overlay {
+    background-color: rgba(8, 10, 18, 0.64);
+}
+
+.orbit-card {
+    padding: 6px;
+    spacing: 8px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.orbit-preview-frame {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    clip-to-allocation: true;
+}
+
+.orbit-preview {
+    background-color: transparent;
+}
+
+.orbit-metadata {
+    spacing: 9px;
+    min-height: 38px;
+}
+
+.orbit-metadata-bottom {
+    spacing: 4px;
+}
+
+.orbit-app-icon {
+    icon-size: 32px;
+}
+
+.orbit-card-compact .orbit-app-icon {
+    icon-size: 24px;
+}
+
+.orbit-overlay-icon {
+    icon-size: 30px;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: rgba(18, 20, 28, 0.65);
+}
+
+.orbit-card-title {
+    color: #f2f4fa;
+    font-size: 10pt;
+    padding: 4px 6px 2px;
+}
+
+.orbit-card-compact .orbit-card-title {
+    font-size: 9pt;
+}
+
+.orbit-preview-placeholder {
+    color: rgba(242, 244, 250, 0.55);
+    font-size: 10pt;
+}
+
+.orbit-card-preview-only {
+    padding-bottom: 10px;
+}
+
+.orbit-overlay-blur-friendly {
+    background-color: rgba(8, 10, 18, 0.16);
+}
+.orbit-metadata-overlay {
+    spacing: 6px;
+    padding: 3px 5px;
+    border-radius: 7px;
+    background-color: rgba(8, 10, 18, 0.68);
+}
+
+/* Transparent metadata option: keep text and icon unchanged. */
+.orbit-metadata-overlay.orbit-metadata-no-background {
+    background-color: transparent;
+}

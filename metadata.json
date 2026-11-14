@@ -1,0 +1,11 @@
+{
+  "uuid": "OrbitAltTab@fuzzy2k",
+  "name": "OrbitAltTab",
+  "description": "Cover Flow-inspired Alt+Tab window switcher with reflections and configurable 3D previews",
+  "shell-version": [
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.orbitalttab",
+  "url": "https://github.com/fuzzy2k/OrbitAltTab",
+  "version": 26
+}

@@ -1,0 +1,27 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.orbitalttab" path="/org/gnome/shell/extensions/orbitalttab/">
+    <key name="activate-switcher" type="as">
+      <default>['&lt;Super&gt;Tab']</default>
+      <summary>Show OrbitAltTab with Super+Tab</summary>
+    </key>
+    <key name="activate-switcher-backward" type="as">
+      <default>['&lt;Shift&gt;&lt;Super&gt;Tab']</default>
+      <summary>Show OrbitAltTab backwards with Shift+Super+Tab</summary>
+    </key>
+    <key name="card-spacing" type="i"><default>420</default><range min="120" max="420"/><summary>Horizontal spacing between cards</summary></key>
+    <key name="rotation-angle" type="i"><default>0</default><range min="0" max="5"/><summary>Degrees added to each side card base angle</summary></key>
+    <key name="preview-scale" type="i"><default>160</default><range min="50" max="180"/><summary>Preview card size percentage</summary></key>
+    <key name="visual-style" type="s"><default>'smooth'</default><choices><choice value='smooth'/><choice value='cinematic'/></choices><summary>Cover Flow visual style</summary></key>
+    <key name="animation-duration" type="i"><default>300</default><range min="100" max="600"/><summary>Animation duration in milliseconds</summary></key>
+    <key name="display-mode" type="s"><default>'full'</default><choices><choice value='full'/><choice value='icon-only'/><choice value='text-only'/><choice value='preview-only'/></choices><summary>Window card metadata display mode</summary></key>
+    <key name="icon-position" type="s"><default>'bottom-left'</default><choices><choice value='top-left'/><choice value='top-right'/><choice value='bottom-left'/><choice value='bottom-right'/><choice value='bottom-center'/></choices><summary>Application icon position</summary></key>
+    <key name="show-icon" type="b"><default>true</default><summary>Show application icon</summary></key>
+    <key name="show-text" type="b"><default>true</default><summary>Show window title</summary></key>
+    <key name="caption-background" type="b"><default>false</default><summary>Show dark background behind caption and icon</summary></key>
+    <key name="diagnostic-flat-mode" type="b"><default>false</default><summary>Disable 3D rotation while preserving Cover Flow layout</summary></key>
+    <key name="reflections-enabled" type="b"><default>true</default><summary>Enable experimental reflections</summary></key>
+    <key name="blur-friendly" type="b"><default>false</default><summary>Use lighter backdrop with Blur my Shell</summary></key>
+    <key name="compact-enabled" type="b"><default>false</default><summary>Enable automatic compact mode</summary></key>
+    <key name="compact-threshold" type="i"><default>8</default><range min="3" max="30"/><summary>Number of windows that activates compact mode</summary></key>
+  </schema>
+</schemalist>
